@@ -7,6 +7,7 @@ body {
     align-items: center;
     margin: auto 0;
     font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
 }
 
 .card {
@@ -14,7 +15,7 @@ body {
     transition: 0.3s;
     border-radius: 25px;
     margin: 100px 400px;
-    background-color: hsl(215, 50%, 21%);
+    background-color: hsl(216, 50%, 16%);
 }
 
 .main-img {
@@ -25,5 +26,33 @@ body {
 
 .title {
     color: hsl(0, 0%, 100%);
-    
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.content {
+    color: hsl(215, 51%, 70%);
+    padding: 10px 15px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 18px;
+
+
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+}
+
+.days {
+    color: hsl(215, 51%, 70%);
 }
