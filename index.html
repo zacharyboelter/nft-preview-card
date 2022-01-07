@@ -1,33 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="/styles.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | NFT preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
+  <div class="card">
+    <div class="main-img">
+      <img src="/images/image-equilibrium.jpg" alt="">
+    </div>
 
-  Equilibrium #3429
+    <div class="title">
+      Equilibrium #3429
+    </div>
 
-  Our Equilibrium collection promotes balance and calm.
+    <div class="content">
+      Our Equilibrium collection promotes balance and calm.
+    </div>
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+    <div class="info">
+      <div class="price">
+        0.041 ETH
+      </div>
+      <div class="days">
+        3 days left
+      </div>
+    </div>
+    <hr>
+    <div class="creator">
+      Creation of Jules Wyvern
+    </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://zacharyboelter.netlify.app/" target="_blank">Zachary Boelter</a>.
+    </div>
   </div>
 </body>
+
 </html>
