@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto 0;
-
+    font-family: 'Outfit', sans-serif;
 }
 
 .card {
@@ -18,4 +21,9 @@ body {
     width: 400px;
     border-radius: 25px;
     padding: 15px;
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+    
 }
