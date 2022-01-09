@@ -60,7 +60,7 @@ body {
 .creator {
     padding: 10px 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 .creator > img {
     width: 50px;
@@ -71,11 +71,24 @@ body {
 }
 
 .creator > p {
-    text-align: center;
-    color: hsl(215, 51%, 70%)
+    text-align: left;
+    color: hsl(215, 51%, 70%);
+    padding-left: 20px;
+
 }
 
 span {
     color: white;
 
+}
+
+.line-container {
+    display: flex;
+    justify-content: center;
+}
+.line {
+    height: 1px;
+    width: 90%;
+    background-color: hsl(215, 32%, 27%);
+    
 }
